@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextBasic" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingStart">@dimen/padding_start</item>
+        <item name="android:paddingEnd">@dimen/padding_start</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextHeader" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingStart">@dimen/padding_start</item>
+        <item name="android:paddingEnd">@dimen/padding_start</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+    </style>
+
+    <style name="TextTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingStart">@dimen/padding_start</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/design_default_color_on_secondary</item>
+    </style>
+
+    <style name="FiltersButtons" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/margin_frame</item>
+        <item name="android:background">@color/acid_green</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BottomSheetFragmentStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_drawable</item>
+    </style>
+</resources>
